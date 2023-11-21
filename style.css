@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: solid;
+}
+p{
+    font-size: 18px;
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+    
+}
+a{
+    font-size: 14px;
+    background: #51b1fa;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: beige;
+}
+h3{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.navegacion{
+    display: flex;
+    color: white;
+}
+.contenedor{
+    background: blue;
+    align-items: center;
+    align-content: center;
+}
+.contenido_compromiso{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-parrafo-y-boton{
+    width: 42%;
+    font-size: 18px;
+}
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.compra{
+    background:white;
+    text-size-adjust: 10%;
+}
+
